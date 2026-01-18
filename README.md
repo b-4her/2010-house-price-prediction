@@ -74,3 +74,62 @@ MAKE A WAY TO INTERACT WITH THE FINAL MODEL -- maybe a class or something
 
 
 ENDING WITH SUBMITTING TO KAGGLE TOO IF YOU WANT.
+
+OKAY TO USE EDA STEPS FROM PREV NOTE BOOK :D  you did it at the end ....
+
+
+
+
+- **DO IN PHASE 1 - CLEANING -- to reduce amount of features you have.**
+
+Feature Reduction — Phase 1 (TODO)
+
+The following steps will be completed by the end of the first analysis phase to reduce the feature space in a principled and reproducible way:
+
+TODO: Remove Non-Informative Features
+
+ Drop pure identifier columns (e.g., Id) that carry no predictive information.
+
+ Identify and remove features with near-zero variance.
+
+ Remove features with extreme sparsity (high proportion of missing values) where the information content is minimal.
+
+TODO: Missing Value–Based Screening
+
+ Quantify missingness for each feature.
+
+ Drop features exceeding a predefined missing-value threshold unless domain knowledge suggests otherwise.
+
+ Explicitly encode “not present” cases for structural features (e.g., basement, garage) instead of treating them as NaN.
+
+TODO: Correlation-Based Feature Filtering
+
+ Compute correlations between numerical features and the target variable.
+
+ Rank features by absolute correlation strength.
+
+ Retain strongly and moderately correlated features for further analysis.
+
+ Flag weakly correlated numerical features as candidates for removal.
+
+TODO: Feature Engineering and Consolidation
+
+ Combine redundant or highly related features into engineered variables (e.g., total area, total bathrooms).
+
+ Replace multiple low-impact features with fewer, higher-signal engineered features.
+
+ Re-evaluate correlations after feature engineering.
+
+TODO: Categorical Feature Screening
+
+ Identify categorical features with rare or low-frequency levels.
+
+ Merge infrequent categories into an “Other” group where appropriate.
+
+ Remove categorical features that show minimal separation in sale prices.
+
+TODO: Model-Guided Feature Selection
+
+ Apply simple baseline models with regularization to identify low-importance features.
+
+ Use model-based importance scores to support final feature selection decisions.
