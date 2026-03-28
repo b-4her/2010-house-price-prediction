@@ -1,3 +1,16 @@
+new readme:
+say course name and your name
+project files split
+where to find everything: EDA and Report
+that's it....
+move questions to EDA and add your report when you are done.
+
+
+
+
+
+
+
 ## Project Title
 **An Empirical Study of Housing Price Drivers and Model Selection for Price Prediction**
 
@@ -133,3 +146,19 @@ TODO: Model-Guided Feature Selection
  Apply simple baseline models with regularization to identify low-importance features.
 
  Use model-based importance scores to support final feature selection decisions.
+
+
+
+
+ ------------------------
+
+TODO: 
+- only submit the IPYNB (so, move anything related to the questions you are trying to answer to it...)
+- don't submit the data but you may submit any scripts
+- you don't need to split into directories as this will take you so much time - just do it in ipynb
+- at the end try some models and stick with the largest result you get
+- answer all the questions that were set: which columns were the most helpful, were they sufficient to get a large result -- maybe also compare to just training base model with the normal columns and see how much it increases. (CONCLUDE WITH HOW WHAT YOU DID IS USEABLE OR USEFUL IN GENERAL... BE CLEAR)
+- RENAME COLS? - final ones at least for easier naming convetions.
+- you don't need to report all prompts :)
+
+ASK A QUESTION TO THE PROF TO CLARIFY IF WHAT YOU ARE DOING NOW IS ON THE RIGHT TRACK...
