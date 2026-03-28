@@ -10,7 +10,6 @@ move questions to EDA and add your report when you are done.
 
 
 
-
 ## Project Title
 **An Empirical Study of Housing Price Drivers and Model Selection for Price Prediction**
 
