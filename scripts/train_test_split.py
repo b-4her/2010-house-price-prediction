@@ -25,7 +25,7 @@ def split_and_save(
 
 
 def main():
-    split_and_save("./data/kaggle_train.csv")
+    split_and_save("./data/data.csv")
 
 
 if __name__ == "__main__":
